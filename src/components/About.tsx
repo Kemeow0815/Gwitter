@@ -292,7 +292,7 @@ const About = ({ owner, repo }: AboutProps) => {
               <li>
                 <code>{t('about.subscription.watch')}</code>&nbsp;
                 <a
-                  href="https://github.com/yxksw/weibo"
+                  href="https://github.com/Kemeow0815/weibo"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -302,7 +302,7 @@ const About = ({ owner, repo }: AboutProps) => {
               <li>
                 <code>{t('about.subscription.add')}</code>&nbsp;
                 <a
-                  href="https://t.me/yxksw"
+                  href="https://t.me/Kemeow0815"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -312,7 +312,7 @@ const About = ({ owner, repo }: AboutProps) => {
               <li>
                 <code>{t('about.subscription.join')}</code>&nbsp;
                 <a
-                  href="https://t.me/taluohui815"
+                  href="https://t.me/Kemeow0815"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
