@@ -16,6 +16,20 @@ const Live2DContainer = styled.div`
     pointer-events: auto;
   }
 
+  /* 深色模式下修复对话框样式 */
+  @media (prefers-color-scheme: dark) {
+    #waifu-tips {
+      background-color: rgba(30, 30, 30, 0.9) !important;
+      color: #ffffff !important;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    #waifu-tips.waifu-tips-active {
+      background-color: rgba(30, 30, 30, 0.95) !important;
+    }
+  }
+
   @media (max-width: 768px) {
     display: none;
   }

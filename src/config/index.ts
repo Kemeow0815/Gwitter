@@ -11,7 +11,7 @@ let config: {
     clientSecret: process.env.REACT_APP_GITHUB_CLIENT_SECRET || 'ac29f7db905cfda7213446329b9b3a72958e1da',
     pageSize: 6,
     autoProxy: 'https://gwitter-api.261770.xyz',
-    owner: 'yxksw',
+    owner: 'Kemeow0815',
     repo: 'weibo',
   },
 
